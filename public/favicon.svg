@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#00d4ff"/>
+    </linearGradient>
+  </defs>
+  <!-- Hexagonal shield shape -->
+  <path d="M24 3 L42 12 L42 30 L24 45 L6 30 L6 12 Z" fill="url(#g1)" opacity="0.15"/>
+  <path d="M24 3 L42 12 L42 30 L24 45 L6 30 L6 12 Z" stroke="url(#g1)" stroke-width="1.5" fill="none"/>
+  <!-- Inner cube-like shape -->
+  <path d="M24 10 L34 16 L34 28 L24 34 L14 28 L14 16 Z" fill="url(#g1)" opacity="0.3"/>
+  <!-- Center dot -->
+  <circle cx="24" cy="22" r="4" fill="url(#g1)"/>
+  <!-- Connection lines -->
+  <line x1="24" y1="22" x2="34" y2="16" stroke="url(#g1)" stroke-width="1" opacity="0.6"/>
+  <line x1="24" y1="22" x2="14" y2="16" stroke="url(#g1)" stroke-width="1" opacity="0.6"/>
+  <line x1="24" y1="22" x2="24" y2="34" stroke="url(#g1)" stroke-width="1" opacity="0.6"/>
+</svg>
